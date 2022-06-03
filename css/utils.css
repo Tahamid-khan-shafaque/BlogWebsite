@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1:'Mukta', sans-serif;
+    --font2 : 'Source Code Pro', monospace;
+  }
+  
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+.max-width-1{
+max-width: 80vw;
+}
+
+.max-width-2{
+max-width: 60vw; /* to make the blog responsive we use VW it is very important figure that out */
+}
+
+.m-auto{
+    margin: auto;/* the divs will come in center  */
+}
+
+.btn{
+    margin: 0px 9px;
+    font-size: 19px;
+    color: green;
+    background-color: rgb(152, 175, 204);
+    border: 3px solid black;
+    
+    border-radius: 6px;
+    padding: 4px 11px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.btn:hover{
+    color: black;
+    background-color: green;
+}
+
+
+
+
+
+
+.form-input{
+    padding: 9px 52px;
+    border: 3px solid blue;
+    border-radius: 17px;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:1324px) {
+   
+      .form-input {
+        font-size: 12px;
+      }
+      .btn {
+        font-size: 12px;
+        color: white;
+      }
+  }
